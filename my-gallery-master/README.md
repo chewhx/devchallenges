@@ -36,9 +36,9 @@
 
 ## Overview
 
-Create a team page based on given prototype.
-I [rotated](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate) and positioned many divs before I found out that you can [layout text in vertical](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation)
-
+Create a profile gallery page based on given prototype.
+I leveraged on responsive Bootstrap grid and the ability to next columns.
+I enhanced the experience with the generous [Unsplash Source API](https://source.unsplash.com), so the page generates fresh images on each load.
 
 ### Built With
 
@@ -58,9 +58,8 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
 
-- [Skills and knowledge from the wonder course: The Complete 2020 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
-- [CSS rotate](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate)
-- [CSS vertical text](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation)
+Learnt box shadow from [here](https://cssgenerator.org/box-shadow-css-generator.html)
+Learnt object-fit images from [here](https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional)
 
 
 ## Contact

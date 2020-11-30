@@ -1,0 +1,90 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width:100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-top: 30px;
+  -webkit-box-shadow: 3px 4px 12px -2px rgba(196,196,196,0.97);
+  -moz-box-shadow: 3px 4px 12px -2px rgba(196,196,196,0.97);
+  box-shadow: 3px 4px 12px -2px rgba(196,196,196,0.97);
+}
+
+
+
+
+.col-4, .col-6, .col-8, .col-12 {
+  display: inline-flex;
+  height: 500px;
+}
+
+.col-4-special {
+  width: 100%;
+  height: 1000px;
+}
+
+.badge {
+  padding: 15px 0px;
+  border-radius: 12px;
+  width: 130px;
+  margin: 10px;
+}
+
+.badge-secondary {
+  background-color: #E5E5E5;
+}
+
+.wrapper {
+  text-align: center;
+  margin: 3%;
+  display: block;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.8125rem;
+  color: #4E5150;
+}
+
+h2 {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.0625rem;
+  color: #A9A9A9;
+}
+
+.number {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.9375rem;
+  text-align: center;
+  color: #4E5150;
+}
+
+.label {
+  font-size: 0.8275rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.9375rem;
+  text-align: center;
+  color: #BDBDBD;
+}
+
+.footer {
+  bottom: 0;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.0625rem;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 10%;
+  width: 100%;
+}
