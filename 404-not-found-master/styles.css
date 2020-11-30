@@ -1,0 +1,95 @@
+.container-fluid {
+  padding: 10% 5%;
+}
+
+/* content */
+
+.scarecrow {
+   width: 100%;
+   height: auto;
+}
+
+.title {
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-align: left;
+}
+
+.message-1 {
+  font-family: "Space Mono";
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+
+.message-2 {
+  font-family: "Space Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  margin-top: 36px;
+  margin-bottom: 64px;
+}
+
+.back-button {
+  font-family: "Space Mono";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px 0px;
+  width: 226px;
+  background-color: #333333;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+.back-button > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* footer */
+
+.footer {
+  bottom: 0;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 39px;
+  width: 100%;
+}
+
+
+/* media queries */
+
+@media (max-width: 994px) {
+
+  .scarecrow {
+     width: 70%;
+  }
+
+  .message-1 {
+    font-size: 2.25rem;
+    line-height: 65px;
+  }
+
+  .message-2 {
+    font-size: 1.0625rem;
+  }
+}
